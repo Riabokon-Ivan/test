@@ -1,0 +1,105 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#form {
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#form-inputs-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#form-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 50%;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+#form-inputs>input {
+  margin: 10px;
+  padding: 10px;
+  width: 75%;
+  border: 1px solid gainsboro;
+  border-radius: 3%;
+  outline: none;
+  -moz-appearance: none;
+}
+
+#form-textarea {
+  width: 50%;
+  height: 172px;
+  text-align: start;
+  position: relative;
+}
+
+#form-textarea>textarea {
+  padding: 10px;
+  margin: 10px;
+  resize: none;
+  overflow: auto;
+  height: 76%;
+  width: 75%;
+  border: 1px solid gainsboro;
+  border-radius: 3%;
+  outline: none;
+  -moz-appearance: none;
+}
+
+#submit-btn {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5%;
+  border: 1px solid #18cfab;
+  background-color: #18cfab;
+  margin-top: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  transition: background-color 300ms;
+}
+
+#submit-btn:hover {
+  background-color: deepskyblue;
+  border: 1px solid deepskyblue;
+}
+
+#charNum {
+  position: absolute;
+  right: 90px;
+  color: gray;
+  font-size: 12px;
+  bottom: 14px;
+}
